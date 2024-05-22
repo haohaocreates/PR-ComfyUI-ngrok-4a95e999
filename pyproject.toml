@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-ngrok"
+description = "Use ngrok to allow external access to ComfyUI.\nNOTE: Need to manually modify a token inside the __init__.py file."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["ngrok"]
+
+[project.urls]
+Repository = "https://github.com/pkpkTech/ComfyUI-ngrok"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-ngrok"
+Icon = ""
